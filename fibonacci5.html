@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var a,b,c;
+        a = 0;
+        b = 1;
+        c = b;
+        for (var i = 1; i<20; i++) {
+            c = a +b;
+            a = b;
+            b =c;
+            if (c % 5 == 0) {
+                alert(c);
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
